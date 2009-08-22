@@ -1,0 +1,12 @@
+#!/usr/bin/perl -w
+# lcnb: line count, without blank lines.
+use strict;
+
+my $count = 0;
+
+while (<>) {
+  next if /^$/; # Skip over blank lines.
+  $count++;
+}
+
+print $count."\n"; 
