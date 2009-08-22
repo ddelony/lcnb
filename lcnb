@@ -10,3 +10,29 @@ while (<>) {
 }
 
 print $count."\n"; 
+
+=head1 NAME
+
+lcnb - Count lines excluding blank lines
+
+=head1 SYNOPSIS
+
+lcnb [file]
+
+=head1 DESCRIPTION
+
+lcnb takes a filename or standard input, and will output the number of lines in the file, minus the number of blank lines.
+
+=head1 Author
+
+David C. Delony <ddelony@gmail.com>
+
+=head1 BUGS
+
+This program was written in Perl.
+
+=head1 COPYRIGHT
+
+Copyright 2009 David C. Delony. All Rights Reserved.
+
+This program is free software. You may copy or redistribute it under the same terms as Perl itself.
